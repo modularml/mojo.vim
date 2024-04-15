@@ -9,7 +9,7 @@ marked with "Mojo addition" in the config files for convenience.
 1. Add Mojo config files to your VIM config:
 
     ```bash
-    for FOLDER in autoload ftdetect ftplugin indent syntax; do mkdir -p ~/.vim/$FOLDER && ln -s $MODULAR_PATH/utils/mojo/vim/$FOLDER/mojo.vim ~/.vim/$FOLDER/mojo.vim; done
+    for FOLDER in autoload ftdetect ftplugin indent syntax; do mkdir -p ~/.vim/$FOLDER && ln -s $FOLDER/mojo.vim ~/.vim/$FOLDER/mojo.vim; done
     ```
 
 2. Enjoy
